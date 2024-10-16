@@ -9,112 +9,196 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
-<header>
-    <div class="d-flex justify-content-between align-items-center infos-header bg-secondary text-white fw-bolder flex-wrap">
-        <p class="refund mb-1 mt-1 ms-5">Satisfait ou remboursé</p>
-        <p class="help mb-1 mt-1">Besoin d'aide ? <span class="fw-normal"> <i class="ri-phone-line"></i> 01 28 02 29 45</span>
-            <span class="fw-normal fst-italic">(appel gratuit)</span></p>
-        <p class="pay mb-1 mt-1 me-5">Paiement Sécurisé</p>
-    </div>
-    <div class="container-fluid main-logo-wrapper pt-4 px-0 bg-body-tertiary">
-        <div class="wrapper-header-container mx-5 d-flex justify-content-between align-items-center">
-            <div class="row w-100 px-5">
-                <div class="col-5">
-                    <img src="assets/img/logo3.png" alt="logo">
-                </div>
-            </div>
-            <div class="container abilities w-50">
-                <div class="row justify-content-end mb-3">
-                    <div class="col-2 p-0 me-2 d-flex justify-content-end">
-                        <img src="assets/img/devis.png" alt="devis">
-                    </div>
-                    <div class="col-4 p-0 d-flex justify-content-center flex-md-column">
-                        <p class="d-inline-block mb-1 fw-bold">Devis Personnalisé</p>
-                        <p class="d-inline-block m-0">Devis gratuit sous 24H</p>
-                    </div>
-                    <div class="col-4 p-0 pe-4 d-flex justify-content-center flex-md-column">
-                        <p class="d-inline-block mb-1 fw-bold text-end">Mon Compte</p>
-                        <p class="d-inline-block m-0 text-end">Se connecter</p>
-                    </div>
-                    <div class="col-1 p-0 d-flex justify-content-end ms-2">
-                        <img src="assets/img/compte1.png" alt="account">
+    <header>
+        <div
+            class="d-flex justify-content-between align-items-center infos-header bg-secondary text-white fw-bolder flex-wrap">
+            <p class="refund mb-1 mt-1 ms-5">Satisfait ou remboursé</p>
+            <p class="help mb-1 mt-1">Besoin d'aide ? <span class="fw-normal"> <i class="ri-phone-line"></i> 01 28 02 29
+                    45</span>
+                <span class="fw-normal fst-italic">(appel gratuit)</span>
+            </p>
+            <p class="pay mb-1 mt-1 me-5">Paiement Sécurisé</p>
+        </div>
+        <div class="container-fluid main-logo-wrapper pt-4 px-0 bg-body-tertiary">
+            <div class="wrapper-header-container mx-5 d-flex justify-content-between align-items-center">
+                <div class="row w-100 px-5">
+                    <div class="col-5">
+                        <img src="assets/img/logo3.png" alt="logo">
                     </div>
                 </div>
-                <div class="row justify-content-end">
-                    <div class="col-2 p-0 me-2 d-flex justify-content-end">
-                        <img src="assets/img/conseils.png" alt="conseil">
+                <div class="container abilities w-50">
+                    <div class="row justify-content-end mb-3">
+                        <div class="col-2 p-0 me-2 d-flex justify-content-end">
+                            <img src="assets/img/devis.png" alt="devis">
+                        </div>
+                        <div class="col-4 p-0 d-flex justify-content-center flex-md-column">
+                            <p class="d-inline-block mb-1 fw-bold">Devis Personnalisé</p>
+                            <p class="d-inline-block m-0">Devis gratuit sous 24H</p>
+                        </div>
+                        <div class="col-4 p-0 pe-4 d-flex justify-content-center flex-md-column">
+                            <p class="d-inline-block mb-1 fw-bold text-end">Mon Compte</p>
+                            <p class="d-inline-block m-0 text-end">Se connecter</p>
+                        </div>
+                        <div class="col-1 p-0 d-flex justify-content-end ms-2">
+                            <img src="assets/img/compte1.png" alt="account">
+                        </div>
                     </div>
-                    <div class="col-4 p-0 d-flex justify-content-center flex-md-column me-0">
-                        <p class="d-inline-block mb-1 fw-bold">Conseils et Questions</p>
-                        <p class="d-inline-block m-0">Rappel automatique gratuit</p>
-                    </div>
-                    <div class="col-4 p-0 pe-4 d-flex justify-content-center flex-md-column">
-                        <p class="d-inline-block mb-1 fw-bold text-end">Mon Panier</p>
-                        <p class="d-inline-block m-0 text-end">0 € - 0 Produit(s)</p>
-                    </div>
-                    <div class="col-1 p-0 d-flex justify-content-end ms-2">
-                        <img src="assets/img/panier.png" alt="panier">
+                    <div class="row justify-content-end">
+                        <div class="col-2 p-0 me-2 d-flex justify-content-end">
+                            <img src="assets/img/conseils.png" alt="conseil">
+                        </div>
+                        <div class="col-4 p-0 d-flex justify-content-center flex-md-column me-0">
+                            <p class="d-inline-block mb-1 fw-bold">Conseils et Questions</p>
+                            <p class="d-inline-block m-0">Rappel automatique gratuit</p>
+                        </div>
+                        <div class="col-4 p-0 pe-4 d-flex justify-content-center flex-md-column">
+                            <p class="d-inline-block mb-1 fw-bold text-end">Mon Panier</p>
+                            <p class="d-inline-block m-0 text-end">0 € - 0 Produit(s)</p>
+                        </div>
+                        <div class="col-1 p-0 d-flex justify-content-end ms-2">
+                            <img src="assets/img/panier.png" alt="panier">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="header-nav pt-5 bg-body-tertiary">
-        <nav class="navbar navbar-expand-lg bg-body-secondary">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <div class="header-nav pt-5 bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-secondary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-between align-items-center w-100">
+                            <li class="home nav-item border-end border-secondary pe-5 fw-bold">
+                                <a class="nav-link active" aria-current="page" href="#"><i class="ri-home-line"></i></a>
+                            </li>
+                            <li class="nav-item nav-links border-end border-secondary fw-bold">
+                                <a class="nav-link active" aria-current="page" href="#">Carrelage</a>
+                            </li>
+                            <li class="nav-item nav-links border-end border-secondary fw-bold">
+                                <a class="nav-link active" aria-current="page" href="#">Parquet</a>
+                            </li>
+                            <li class="nav-item nav-links border-end border-secondary fw-bold">
+                                <a class="nav-link active" aria-current="page" href="#">Extérieur</a>
+                            </li>
+                            <li class="nav-item nav-links border-end border-secondary fw-bold">
+                                <a class="nav-link active" aria-current="page" href="#">Mur</a>
+                            </li>
+                            <li class="nav-item nav-links border-end border-secondary fw-bold">
+                                <a class="nav-link active" aria-current="page" href="#">Pose</a>
+                            </li>
+                            <li class="nav-item nav-links border-end border-secondary fw-bold">
+                                <a class="nav-link active" aria-current="page" href="#">Sanitaires</a>
+                            </li>
+                            <li class="nav-item nav-links me-4 border-end border-secondary fw-bold">
+                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-auto me-4 position-relative" role="search">
+                            <input class="me-4" type="search" placeholder="Rechercher un produit"
+                                aria-label="Search">
+                            <i class="ri-search-line text-white d-flex justify-content-center bg-secondary"></i>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper w-100 mt-5 ms-5 p-0 d-flex flex-md-row justify-content-between flex-wrap">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="assets/img/slider1.jpg" class="d-block w-100" alt="slider1">
+                        <div
+                            class="carousel-caption p-0 d-flex justify-content-between align-items-center text-white w-100 start-0 end-0 bottom-0">
+                            <p class="mt-3 ms-3">Notre carrelage mis en scène dans la maison d'un nouveau client heureux
+                                !</p>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/img/slider2.jpg" class="d-block w-100" alt="slider2">
+                        <div
+                            class="carousel-caption p-0 d-flex justify-content-between align-items-center text-white w-100 start-0 end-0 bottom-0">
+                            <p class="mt-3 ms-3">Notre carrelage mis en scène dans la maison d'un nouveau client heureux
+                                !</p>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" 
+                                class="active"
+                                aria-current="true" 
+                                data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider3.jpg" class="d-block w-100" alt="slider3">
+                        <div class="carousel-caption align-items-center justify-content-between p-0 d-flex text-white w-100 start-0 end-0 bottom-0">
+                            <p class="mt-3 ms-3">Notre carrelage mis en scène dans la maison d'un nouveau client heureux
+                                !</p>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                class="active"
+                                aria-current="true" 
+                                    aria-label="Slide 3"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev opacity-100 d-flex justify-content-start" type="button"
+                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-between w-100">
-                        <li class="nav-item border-end border-secondary pe-5 fw-bold">
-                            <a class="nav-link active ms-4" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item border-end border-secondary pe-5 fw-bold">
-                            <a class="nav-link active" aria-current="page" href="#">Carrelage</a>
-                        </li>
-                        <li class="nav-item border-end border-secondary pe-5 fw-bold">
-                            <a class="nav-link active" aria-current="page" href="#">Parquet</a>
-                        </li>
-                        <li class="nav-item border-end border-secondary pe-5 fw-bold">
-                            <a class="nav-link active" aria-current="page" href="#">Extérieur</a>
-                        </li>
-                        <li class="nav-item border-end border-secondary pe-5 fw-bold">
-                            <a class="nav-link active" aria-current="page" href="#">Mur</a>
-                        </li>
-                        <li class="nav-item border-end border-secondary pe-5 fw-bold">
-                            <a class="nav-link active" aria-current="page" href="#">Pose</a>
-                        </li>
-                        <li class="nav-item border-end border-secondary pe-5 fw-bold">
-                            <a class="nav-link active" aria-current="page" href="#">Sanitaires</a>
-                        </li>
-                        <li class="nav-item me-4 border-end border-secondary pe-5 fw-bold">
-                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex ms-auto me-4" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                <button class="carousel-control-next opacity-100 d-flex justify-content-end" type="button"
+                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="wrapper-all-img d-flex justify-content-between align-items-center flex-md-column">
+                <div class="img-wrapper">
+                    <img src="assets/img/carrelage1.jpg" alt="carrelage1">
+                </div>
+                <div class="img-wrapper">
+                    <img src="assets/img/carrelage2.jpg" alt="carrelage2">
                 </div>
             </div>
-        </nav>
-    </div>
-</header>
+        </div>
+    </main>
 
-<main>
-</main>
-<footer>
-</footer>
-<script src="assets/js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <footer>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -9,7 +9,77 @@ body {
     font-family: Poppins;
 }
 
+form input::placeholder {
+    font-size: 14px;
+}
+
+form input {
+    border: none;
+    border-radius: 2px;
+    padding: 6px;
+    outline: none !important;
+}
+
+form i {
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+    color: white;
+    padding: 6px;
+    position: absolute;
+    top: 1px;
+    right: 13px;
+}
+
+main .carousel img  {
+    height: 550px;
+}
+
+.home {
+    font-size: 24px;
+    margin-left: 1.7rem;
+}
+
 .container .row img {
     height: 70px;
     width: 70px;
+}
+
+.nav-links {
+    padding-right: 4rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    font-weight: 100;
+    background-color: #F52674;
+}
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+    filter: none !important;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.400);
+}
+
+.carousel-indicators {
+    margin: 0 10px 0px 0px !important;
+    position: initial !important;
+    width: fit-content !important;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: white !important;
+}
+
+.wrapper-all-img img {
+    height: 250px;
+    width: 400px;
+}
+
+.wrapper-all-img {
+    margin-right: 6rem;
+}
+
+#carouselExampleDark {
+    width: 70%;
 }
