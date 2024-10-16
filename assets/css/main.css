@@ -30,7 +30,7 @@ form i {
 }
 
 main .carousel img  {
-    height: 550px;
+    height: auto;
 }
 
 .home {
@@ -67,8 +67,8 @@ main .carousel img  {
 }
 
 .wrapper-all-img img {
-    height: 250px;
-    width: 400px;
+    height: 210px;
+    width: 350px;
 }
 
 #carouselExampleDark {
