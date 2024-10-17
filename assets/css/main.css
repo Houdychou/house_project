@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -26,7 +27,7 @@ form i {
     right: 13px;
 }
 
-main .carousel img  {
+main .carousel img {
     height: 560px;
 }
 
@@ -39,7 +40,8 @@ main .carousel img  {
     background-color: #F52674;
 }
 
-.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
     filter: none !important;
 }
 
@@ -64,4 +66,20 @@ main .carousel img  {
 
 .all-carrelages {
     height: 40px;
+}
+
+.w-40 {
+    width: 40% !important;
+}
+
+.w-60 {
+    width: 60% !important;
+}
+
+.w-70 {
+    width: 70% !important;
+}
+
+.fs-7 {
+    font-size: 13px;
 }
