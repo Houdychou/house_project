@@ -44,10 +44,6 @@ main .carousel img  {
     background-color: #F52674;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    font-weight: 100;
-}
-
 .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
     filter: none !important;
 }
@@ -57,26 +53,18 @@ main .carousel img  {
 }
 
 .carousel-indicators {
-    margin: 0 10px 0px 0px !important;
     position: initial !important;
     width: fit-content !important;
 }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
-    background-color: white !important;
-}
-
-.wrapper-all-img {
-    width: 30%;
+    border: 1px solid white;
+    height: 30px !important;
 }
 
 .wrapper-all-img img {
     height: 240px;
     width: 375px;
-}
-
-#carouselExampleDark {
-    width: 70%;
 }
 
 .all-carrelages {
