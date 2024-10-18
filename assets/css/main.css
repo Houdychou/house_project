@@ -36,10 +36,6 @@ main .carousel img {
     width: 70px;
 }
 
-.bg-rose {
-    background-color: #F52674;
-}
-
 .carousel-dark .carousel-control-next-icon,
 .carousel-dark .carousel-control-prev-icon {
     filter: none !important;
@@ -68,6 +64,10 @@ main .carousel img {
     height: 40px;
 }
 
+.w-30 {
+    width: 30% !important;
+}
+
 .w-40 {
     width: 40% !important;
 }
@@ -82,4 +82,16 @@ main .carousel img {
 
 .fs-7 {
     font-size: 13px;
+}
+
+.img-carrelage img {
+    height: 350px;
+}
+
+.bg-rose {
+    background-color: #F52674;
+}
+
+.text-rose {
+    color: #F52674;
 }
